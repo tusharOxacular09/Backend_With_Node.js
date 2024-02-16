@@ -1,0 +1,38 @@
+--- Backend With Node.js ---
+1. Node.js
+2. npm init
+3. npm i express
+4. Express used to buld the REST Apis, Representational State Transfer.
+5. npm i nodemon, auto running during refresh / update.
+6. module export and import.
+   i. Common js
+   ii. ES6
+    // common js import
+    // const express = require("express");
+    // ES6 improt
+    // import express from "express";
+    // Common JS export
+    // module.exports = XYZ;
+    // module.exports = {XYZ, HHH};
+    // ES6 export
+    // export default Xyz;
+    // export {qqq, www};
+
+7. Configure ES6 in Node.js
+   - "type": "module"
+   - "type": "commonjs"
+8. Creating Our First API.
+9. https://github.com/tushar-credencesoft/Backend_With_Node.js
+   - http/https: protocol
+   - github.com: domain
+   - tushar-credencesoft: endpoint
+   - http://localhost:8080/api/get-data
+10. Request, GET, POST, PUT, DELETE, PATCH.....
+11. PUT VS PATCH
+12. Query Parameter: /get-data/:name
+13. In Localhost we can't run 2 servers at a time on a port.
+14. Note: server.use(express.json()); // middleware
+15. After Successfully Inserting the data also it looses After server off.
+    - Thats why Databases and File systems came into picture.
+    
+
